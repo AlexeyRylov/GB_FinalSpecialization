@@ -1,0 +1,14 @@
+  595  cat > HomeAnimals
+  596  cat > PackAnimals
+  597  cat HomeAnimals PackAnimals > Animals
+  598  cat Animals
+  599  mv Animals HumanFriends
+  600  mkdir EX02
+  601  mv Animals EX02
+  602  mv HumanFriends EX02
+  603  sudo dpkg -i mysql-apt-config_0.8.29-1_all.deb 
+  604  sudo apt update
+  605  sudo apt-get install mysql-workbench-community
+  606  sudo nano /etc/apt/sources.list
+  607  sudo apt update
+  608  sudo apt-get install mysql-workbench-community
